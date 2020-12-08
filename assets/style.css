@@ -1,9 +1,13 @@
-header{
+h1.aboutMe {
     font-weight: bold;
     font-size: 60px;
-    color: mediumaquamarine;
-    
+    color: rgb(28, 109, 82);
+
+    height: 200px;
+    width: 100%;
+    position: relative;
     text-align: center;
+    padding: 10px;
     margin: 20px;
     
     background: lightskyblue;
