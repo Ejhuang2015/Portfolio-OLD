@@ -1,10 +1,38 @@
-h1.aboutMe {
+body {
+    background: palegreen;
+
+    z-index: 10;
+}
+
+div.wrapper {
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header#navi {
+    font-family: fantasy;
+    font-size: 20px;
+    color: powderblue;
+
+    top: 0;
+    left: auto;
+    position: fixed;
+    text-align: center;
+    margin: 5px auto;
+
+    background: cornflowerblue;
+
+    z-index: 1000;
+}
+
+section {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     color: rgb(28, 109, 82);
 
     height: 200px;
-    width: 100%;
     position: relative;
     text-align: center;
     padding: 10px;
