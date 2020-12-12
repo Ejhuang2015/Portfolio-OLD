@@ -16,6 +16,23 @@ h1.header {
     margin: 5px;
 }
 
-article p {
+.summary,
+.summaryBullets {
     background-color: #4ba3c7;
+    text-align: center;
+}
+
+figure.artworkDisplay {
+    text-align: center;
+}
+
+/* Footer Styling */
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
 }
