@@ -1,43 +1,21 @@
 body {
-    background: palegreen;
-
     z-index: 10;
+
+    background:#81d4fa;
+    color:#000000;
 }
 
-div.wrapper {
+header {
     text-align: center;
-    width: 600px;
-    padding: 20px;
-    margin: 0 auto;
 }
 
-header#navi {
-    font-family: fantasy;
-    font-size: 20px;
-    color: powderblue;
-
-    top: 0;
-    left: auto;
-    position: fixed;
-    text-align: center;
-    margin: 5px auto;
-
-    background: cornflowerblue;
-
-    z-index: 1000;
-}
-
-section {
+h1.header {
     font-weight: bold;
     font-size: 40px;
-    color: rgb(28, 109, 82);
 
-    height: 200px;
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    
-    background: lightskyblue;
+    margin: 5px;
+}
 
+article p {
+    background-color: #4ba3c7;
 }
