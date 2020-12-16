@@ -1,10 +1,51 @@
-body {
-    z-index: 10;
+/* Entire Page- Used for full page Background */
+html {
+    background: url(./Abstract\ BG.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-    background:#81d4fa;
-    color:#000000;
 }
 
+/* Anchor Tags- Change the hyperlink text colors */
+a {
+    color: rgb(22,58,84);
+}
+
+a:hover {
+    color: rgb(95, 163, 252);
+}
+
+/* General changes to the page */
+body {
+    background: transparent;
+    color:rgb(22,58,84);
+
+    font-family: 'Architects Daughter';
+
+    position: relative;
+    min-height: 100vh;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+/* Navigation Bar */
+nav.navbar {
+    position:fixed;
+    width:100%;
+    top: 0;
+    z-index: 2;
+
+    background-color: rgb(238,255,251,0.75);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(22,58,84);
+    font-weight: bold;
+}
+
+/* Header */
 header {
     text-align: center;
 }
@@ -13,26 +54,66 @@ h1.header {
     font-weight: bold;
     font-size: 40px;
 
-    margin: 5px;
+    margin: 20px auto;
 }
 
+/* Main Body Wrapper */
+.container {
+    margin: 10px auto;
+}
+
+/* Paragraphs and Details */
 .summary,
 .summaryBullets {
-    background-color: #4ba3c7;
-    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    font-size: 20px;
 }
 
-figure.artworkDisplay {
-    text-align: center;
+.centerMe {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Display Images */
+.artworkDisplay {
+    display:block;
+    margin: auto;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
 }
 
 /* Footer Styling */
-.footer {
-    padding: 30px;
-    clear: both;
+footer {
+    font-size: 16px;
     text-align: center;
+
+    background-color: rgb(238,255,251,0.5);
+
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+
+    border-top: solid 5px rgb(128,251,242);
 }
 
-.footer h2 {
-    font-size: 20px;
+.footerIcons {
+    margin: 5px 20px;
+    max-width: 50px;
+    max-height: 50px;
 }
+
+.footerReturn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Notes
+Border Color: rgb(128,251,242)
+Text Color: rgb(22,58,84);
+Background Color: rgb(238,255,251,0.5);
+*/

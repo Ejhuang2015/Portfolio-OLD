@@ -4,7 +4,10 @@
     <head>
         <meta charset="UTF-8" />
         
-        <!-- <link rel="stylesheet" href="./assets/reset.css"> -->
+        <!-- Stylesheet Links -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
         <link rel="stylesheet" href="./assets/style.css">
@@ -15,11 +18,11 @@
     <body>
 
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
 
           <!-- Logo/Title -->
-          <a class="navbar-brand" href="#">Edward Huang's Portfolio</a>
+          <a id="nav" class="navbar-brand" href="./index.html"><img src="https://via.placeholder.com/80x30" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,30 +32,17 @@
 
               <!-- Link 1 -->
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
+
               <!-- Link 2 -->
               <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-link" href="./aboutMe.html">About Me</a>
               </li>
 
-              <!-- Dropdown Menu -->
-              <li class="nav-item dropdown">
-                <!-- Dropdown Title -->
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Links
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <!-- Dropdown Item 1 -->
-                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/edwardhuang1238/" target="_blank">LinkedIn</a></li>
-                  <!-- Dropdown Item 2 -->
-                  <li><a class="dropdown-item" href="https://www.artstation.com/zekeroxblade" target="_blank">Artstation</a></li>
-
-                  <!-- Dropdown Divider -->
-                  <li><hr class="dropdown-divider"></li>
-                  <!-- Dropdown Item 3 -->
-                  <li><a class="dropdown-item" href="#">Resume (Not Implemented Yet)</a></li>
-                </ul>
+              <!-- Link 3 -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
               </li>
 
               <!-- Link 4 -->
@@ -60,7 +50,7 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-
+            
           </div>
         </div>
       </nav>
@@ -71,25 +61,23 @@
         <!-- Row 1 -->
         <div class="row">
 
-          <!-- Column 1-1 -->
-          <header class="col-12">
+          <!-- Full Width Header -->
+          <header class="col-md-12">
             <h1 class="header">Portfolio</h1>
           </header>
 
         </div>
 
         <!-- Row 2 -->
-        <div class="row">
+        <div class="row centerMe">
 
-          <!-- Column 2-1 -->
-          <article class="col-8">
-            <figure class="artworkDisplay">
-              <img src="https://via.placeholder.com/500" alt="placeholder"/>
-            </figure>
+          <!-- Image 1 -->
+          <article class="col-lg-8">
+              <img src="./assets/edward-huang-valentine-tiki.jpg" alt="Artwork 1" class="artworkDisplay"/>
           </article>
 
-          <!-- Column 2-2 -->
-          <article class="col-4">
+          <!-- Details 1 -->
+          <article class="col-lg-4">
             <p class="summary">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error corporis quos, cumque, tempore ratione, adipisci dicta quibusdam fuga repellat mollitia dolorum. Quaerat laborum iusto natus, porro incidunt maxime quidem facilis, unde dicta, consectetur vero quod. Laborum nisi blanditiis fugiat laudantium modi excepturi id. Dolorum vel fuga, veritatis impedit reiciendis deleniti!
             </p>
@@ -98,17 +86,15 @@
         </div>
 
         <!-- Row 3 -->
-        <div class="row">
+        <div class="row centerMe">
 
-          <!-- Column 3-1 -->
-          <article class="col-8">
-            <figure class="artworkDisplay">
-              <img src="https://via.placeholder.com/500" alt="placeholder"/>
-            </figure>
+          <!-- Image 2 -->
+          <article class="col-lg-8">
+              <img src="./assets/Lurantis.jpg" alt="Artwork 2" class="artworkDisplay"/>
           </article>
 
-          <!-- Column 3-2 -->
-          <article class="col-4">
+          <!-- Details 2 -->
+          <article class="col-lg-4">
             <p class="summary">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error corporis quos, cumque, tempore ratione, adipisci dicta quibusdam fuga repellat mollitia dolorum. Quaerat laborum iusto natus, porro incidunt maxime quidem facilis, unde dicta, consectetur vero quod. Laborum nisi blanditiis fugiat laudantium modi excepturi id. Dolorum vel fuga, veritatis impedit reiciendis deleniti!
             </p>
@@ -120,8 +106,14 @@
 
       <!-- Footer -->
       <footer class="footer">
-        <h2>Contact Information</h2>
-        <p>Contact stuff</p>
+        <!-- Icon 1 -->
+        <a href="https://www.linkedin.com/in/edwardhuang1238/" target="_blank"><img src="./assets/LinkedIn.png" alt="Link to personal Linked In page" class="footerIcons" ></a>
+        <!-- Icon 2 -->
+        <a href="https://www.artstation.com/zekeroxblade" target="_blank"><img src="./assets/ArtStation.png" alt="Link to personal Art Station page" class="footerIcons" ></a>
+        <!-- Icon 3 -->
+        <a href="https://github.com/Ejhuang2015" target="_blank"><img src="./assets/GitHub.png" alt="Link to personal Git Hub page" class="footerIcons" ></a>
+        <!-- Return to Top Link -->
+        <a class="footerReturn" href="#">Back to top</a>
       </footer>
 
     </body>
