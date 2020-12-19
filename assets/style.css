@@ -1,11 +1,15 @@
 /* Entire Page- Used for full page Background */
 html {
-    background: url(./Abstract\ BG.jpg) no-repeat center center fixed;
+    background: rgb(127,177,186) url(./Abstract\ BG.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Anchor Tags- Change the hyperlink text colors */
@@ -45,6 +49,10 @@ nav.navbar {
     font-weight: bold;
 }
 
+img.signature {
+    height: 40px;
+}
+
 /* Header */
 header {
     text-align: center;
@@ -58,32 +66,74 @@ h1.header {
 }
 
 /* Main Body Wrapper */
-.container {
+div.container {
     margin: 10px auto;
 }
 
 /* Paragraphs and Details */
-.summary,
-.summaryBullets {
-    display: table-cell;
-    vertical-align: middle;
+p.summary,
+ul.summaryBullets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
     font-size: 20px;
 }
 
-.centerMe {
+p.summaryCenter {
+    text-align: center;
+}
+
+div.centerMe {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
 /* Display Images */
-.artworkDisplay {
+img.artworkDisplay {
     display:block;
-    margin: auto;
+    margin: 10px auto;
+
+    width: 100%;
+    object-fit: contain;
+
+    border-radius: 25px;
+    border: solid 5px rgb(128,251,242);
+}
+
+img.carouselImage{
+    display:block;
+    margin: 10px auto;
+
+    width: 100%;
+    object-fit: contain;
+    
     max-width: 800px;
     max-height: 800px;
-    padding: 20px;
+}
+
+/* Contact Form Inputs Styling */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(128,251,242);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=button] {
+    background-color: rgb(238,255,251);
+    color: rgb(22,58,84);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=button]:hover {
+    background-color:red;
+    /* background-color: rgb(123, 173, 214); */
 }
 
 /* Footer Styling */
@@ -97,18 +147,19 @@ footer {
     position: absolute;
     bottom: 0px;
 
-    border-top: solid 5px rgb(128,251,242);
+    border-top: solid 5px;
+    border-image: radial-gradient(#80acff, rgb(128,251,242)) 1;
 }
 
-.footerIcons {
+img.footerIcons {
     margin: 5px 20px;
-    max-width: 50px;
-    max-height: 50px;
+    width: 50px;
+    height: 50px;
 }
 
-.footerReturn {
+a.footerReturn {
     position: absolute;
-    top: 10px;
+    bottom: 20px;
     right: 10px;
 }
 
