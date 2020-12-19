@@ -79,6 +79,12 @@ h1.header {
 /* Main Body Wrapper */
 div.container {
     margin: 10px auto;
+
+    background: rgb(238,255,251,0.50);
+
+    padding-top: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(128,251,242);
 }
 
 /* Paragraphs and Details */
@@ -91,7 +97,7 @@ ul.summaryBullets {
     font-size: 20px;
 }
 
-p.summaryCenter {
+.summaryCenter {
     text-align: center;
 }
 
@@ -110,7 +116,6 @@ img.artworkDisplay {
     object-fit: contain;
 
     border-radius: 25px;
-    border: solid 5px rgb(128,251,242);
 }
 
 img.carouselImage{
