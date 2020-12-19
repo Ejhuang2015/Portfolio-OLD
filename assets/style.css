@@ -49,6 +49,17 @@ nav.navbar {
     font-weight: bold;
 }
 
+.dropdown-menu {
+    background-color: rgb(238,255,251,0.75);
+    color: rgb(22,58,84);
+    border: 2px solid rgb(128,251,242);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: rgb(22,58,84);
+    background-color:#80acff;
+}
+
 img.signature {
     height: 40px;
 }
