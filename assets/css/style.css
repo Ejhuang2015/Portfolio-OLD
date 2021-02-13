@@ -1,0 +1,53 @@
+/* Background Image */
+html {
+    background: url(../Abstract\ BG.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: transparent;
+    color:rgb(22,58,84);
+
+    position: relative;
+    min-height: 100vh;
+    padding: 65px 0px;
+}
+
+.footer {
+    padding: 0px;
+}
+
+/* Bulma Overwrites */
+.navbar-menu {
+    background-color: transparent;
+}
+.navbar-dropdown {
+    background-color: rgb(238,255,251,0.75);
+}
+/* Images and Icons */
+img.footerIcons {
+    margin: 5px 20px;
+    width: 50px;
+    height: 50px;
+}
+
+#testing {
+    background:violet;
+}
+#testing:hover {
+    background: yellow;
+}
+
+/* Notes
+border-color: rgb(128,251,242)
+Text color: rgb(22,58,84);
+background-color: rgb(238,255,251,0.5);
+
+Hover color: rgb(95, 163, 252);
+
+Footer Gradient
+border-image: radial-gradient(#80acff, rgb(128,251,242)) 1; 
+*/
