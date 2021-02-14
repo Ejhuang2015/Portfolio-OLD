@@ -2,9 +2,11 @@
 
 This project is a documentation of my journey towards becoming a full stack developer. It is a portfolio page that details my strengths and capabilities, as well as showcase some of my better works.
 
+![Project example image](./assets/images/PortfolioScreenshot.png)
+
 ## Prerequisites
 
-Any web browswer that allows the user to open and view HTML files will do.
+Any web browswer that allows the user to open and view HTML files and run JavaScript will do.
 
 ## Contributors
 
