@@ -1,5 +1,5 @@
 html {
-    background: url(../Abstract\ BG.jpg) no-repeat center center fixed;
+    background: url(../images/Abstract\ BG.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,10 +25,6 @@ body {
 
 .footer {
     padding: 0px;
-}
-
-.oddRow {
-    background-color: rgb(103, 188, 214,0.5);
 }
 
 /* Bulma Overwrites */
@@ -90,20 +86,47 @@ img.footerIcons {
     margin: 0px 5px 52px 5px;
 }
 .card-image {
-    height: 500px;
+    height: 200px;
+}
+@media screen and (min-width: 1024px) {
+    .card-image {
+        height: 500px;
+    }
 }
 .cardImage {
-    max-height: 500px;
+    max-height: 200px;
     margin: auto;
 }
+@media screen and (min-width: 1024px) {
+    .cardImage {
+        max-height: 500px;
+        margin: auto;
+    }
+}
 .card-content{
-    height: 175px;
+    height: 150px;
+    overflow-y: auto;
+}
+@media screen and (min-width: 1024px) {
+    .cardImage {
+        max-height: 500px;
+        margin: auto;
+    }
 }
 .card-footer {
     border-color: rgb(128,251,242);
 }
 .card-footer-item:not(:last-child) {
     border-right: 1px solid rgb(128,251,242);
+}
+.sectionTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px auto 15px auto;
+    width: 80%;
+    border: 2px solid rgb(128,251,242);
+    border-radius: 10px;
+    background-color: rgb(103, 188, 214,0.5);
 }
 
 /* Notes

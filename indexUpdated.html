@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
   <!-- Reset CSS -->
-  <link href="./assets/reset.css" rel="stylesheet">
+  <link href="./assets/css/reset.css" rel="stylesheet">
   <!-- Bulma CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <!-- Custom CSS -->
@@ -24,7 +24,7 @@
     crossorigin="anonymous"></script>
 
   <!-- Favicon -->
-  <link rel="icon" href="./assets/Signature.png">
+  <link rel="icon" href="./assets/images/Signature.png">
 
   <title>Edward Huang's Portfolio'</title>
 </head>
@@ -35,7 +35,7 @@
     <div class="navbar-brand">
       <!-- Logo -->
       <a href="./indexUpdated.html" class="navbar-item">
-        <img src="./assets/Signature.png" alt="Edward Huang's logo">
+        <img src="./assets/images/Signature.png" alt="Edward Huang's logo">
       </a>
       <!-- Burger Menu -->
       <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
@@ -68,21 +68,23 @@
           <div class="navbar-dropdown invis" id="navContactsDropdown">
             <!-- GitHub Link -->
             <a href="https://github.com/Ejhuang2015" class="navbar-item navLink" target="_blank"
-              rel="noreferrer noopener"><img src="./assets/GitHub.png" alt="Git Hub logo" class="smallIcon">GitHub</a>
+              rel="noreferrer noopener"><img src="./assets/images/GitHub.png" alt="Git Hub logo"
+                class="smallIcon">GitHub</a>
             <!-- ArtStation Link -->
             <a href="https://zekeroxblade.artstation.com/" class="navbar-item navLink" target="_blank"
-              rel="noreferrer noopener"><img src="./assets/ArtStation.png" alt="Artstation logo"
+              rel="noreferrer noopener"><img src="./assets/images/ArtStation.png" alt="Artstation logo"
                 class="smallIcon">ArtStation</a>
             <!-- LinkedIn Link -->
             <a href="https://www.linkedin.com/in/edwardhuang1238/" class="navbar-item navLink" target="_blank"
-              rel="noreferrer noopener"><img src="./assets/LinkedIn.png" alt="Linked in logo" class="smallIcon">Linked
+              rel="noreferrer noopener"><img src="./assets/images/LinkedIn.png" alt="Linked in logo"
+                class="smallIcon">Linked
               In</a>
             <!-- Resume Link -->
             <a href="https://drive.google.com/file/d/1Usp1llqu8YRF2XRUs8Cwhi9sC0MmMJCv/view?usp=sharing"
               class="navbar-item navLink" target="_blank" rel="noreferrer noopener"><img
-                src="https://via.placeholder.com/15x15" alt="pdf icon" class="smallIcon">Resume</a>
+                src="./assets/images/DocumentIcon.png" alt="pdf icon" class="smallIcon">Resume</a>
             <!-- Email Link -->
-            <a class="navbar-item navLink" id="contactLink"><img src="https://via.placeholder.com/15x15" alt="mail icon"
+            <a class="navbar-item navLink" id="contactLink"><img src="./assets/images/email.png" alt="mail icon"
                 class="smallIcon">Contact Me</a>
           </div>
         </div>
@@ -121,129 +123,140 @@
   </div>
 
   <!-- Web Portfolio -->
-  <div class="columns centered oddRow" id="webPortfolio">
-    <!-- Project 1 -->
-    <div class="column card">
-      <div class="card-image">
-        <img class="cardImage" src="./assets/images/Truffle Shuffle- Laptop.png"
-          alt="Truffle Shuffle Project Screenshot">
+  <div class="centered" id="webPortfolio">
+    <h3 class="sectionTitle">Web Dev Portfolio</h3>
+    <div class="columns">
+      <!-- Project 1 -->
+      <div class="column card">
+        <div class="card-image">
+          <img class="cardImage" src="./assets/images/Truffle Shuffle- Laptop.png"
+            alt="Truffle Shuffle Project Screenshot">
+        </div>
+        <div class="card-header">
+          <p class="card-header-title is-centered">
+            Truffle Shuffle
+          </p>
+        </div>
+        <div class="card-content">
+          <p class="content">
+            The Truffle-Shuffle project is a lightweight application that helps an indecisive user(s) generate ideas on
+            what movie to watch and what cocktail to drink. The user is first given the option to choose a cocktail
+            based
+            on their alcohol preference or just a random drink from the CocktailDB database. After getting their drink,
+            the user is presented with a wheel that lets them spin for a random genre and decade. If need be, the user
+            can
+            respin the wheel to grab a different genre/decade. Based on these results a movie is obtained from the
+            MovieDB
+            database and presented to the user.
+          </p>
+        </div>
+        <footer class="card-footer">
+          <a href="https://laura-bullek.github.io/Truffle-Shuffle/" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">See the App</a>
+          <a href="https://github.com/Laura-Bullek/Truffle-Shuffle" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">View the Code</a>
+        </footer>
       </div>
-      <div class="card-header">
-        <p class="card-header-title is-centered">
-          Truffle Shuffle
-        </p>
+      <!-- Project 2 -->
+      <div class="column card">
+        <div class="card-image">
+          <img class="cardImage" src="./assets/images/WeatherDashboardScreenshot.png"
+            alt="Weather Dashboard Project Screenshot">
+        </div>
+        <div class="card-header">
+          <p class="card-header-title is-centered">
+            Truffle Shuffle
+          </p>
+        </div>
+        <div class="card-content">
+          <p class="content">
+            This project is a practice on using api and ajax. It is weather checking application where the user can
+            enter
+            in a city and find the its current weather, temperature, 5 day update and more. The application also keeps
+            track of past cities that the user has searched for and can quickly bring up the latest information for that
+            city. On a page load, the last city to be manually searched for is brought up. A clear button is provided to
+            clear the search history.
+          </p>
+        </div>
+        <footer class="card-footer">
+          <a href="https://ejhuang2015.github.io/Weather-Dashboard/" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">See the App</a>
+          <a href="https://github.com/Ejhuang2015/Weather-Dashboard" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">View the Code</a>
+        </footer>
       </div>
-      <div class="card-content">
-        <p class="content">
-          The Truffle-Shuffle project is a lightweight application that helps an indecisive user(s) generate ideas on
-          what movie to watch and what cocktail to drink. The user is first given the option to choose a cocktail based
-          on their alcohol preference or just a random drink from the CocktailDB database. After getting their drink,
-          the user is presented with a wheel that lets them spin for a random genre and decade. If need be, the user can
-          respin the wheel to grab a different genre/decade. Based on these results a movie is obtained from the MovieDB
-          database and presented to the user.
-        </p>
+      <!-- Project 3 -->
+      <div class="column card">
+        <div class="card-image">
+          <img class="cardImage" src="./assets/images/CodingQuizScreenshot.PNG" alt="Coding Quiz Project Screenshot">
+        </div>
+        <div class="card-header">
+          <p class="card-header-title is-centered">
+            Truffle Shuffle
+          </p>
+        </div>
+        <div class="card-content">
+          <p class="content">
+            This project is a practice on using Javascript. It presents a timed quiz about basic coding theory and
+            terminology where wrong answers reduce the time. It also features a high score list and the ability to save
+            the user's initials.
+          </p>
+        </div>
+        <footer class="card-footer">
+          <a href="https://ejhuang2015.github.io/Coding-Quiz/" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">See the App</a>
+          <a href="https://github.com/Ejhuang2015/Coding-Quiz" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">View the Code</a>
+        </footer>
       </div>
-      <footer class="card-footer">
-        <a href="https://laura-bullek.github.io/Truffle-Shuffle/" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">See the App</a>
-        <a href="https://github.com/Laura-Bullek/Truffle-Shuffle" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">View the Code</a>
-      </footer>
-    </div>
-    <!-- Project 2 -->
-    <div class="column card">
-      <div class="card-image">
-        <img class="cardImage" src="./assets/images/WeatherDashboardScreenshot.png"
-          alt="Weather Dashboard Project Screenshot">
-      </div>
-      <div class="card-header">
-        <p class="card-header-title is-centered">
-          Truffle Shuffle
-        </p>
-      </div>
-      <div class="card-content">
-        <p class="content">
-          This project is a practice on using api and ajax. It is weather checking application where the user can enter
-          in a city and find the its current weather, temperature, 5 day update and more. The application also keeps
-          track of past cities that the user has searched for and can quickly bring up the latest information for that
-          city. On a page load, the last city to be manually searched for is brought up. A clear button is provided to
-          clear the search history.
-        </p>
-      </div>
-      <footer class="card-footer">
-        <a href="https://ejhuang2015.github.io/Weather-Dashboard/" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">See the App</a>
-        <a href="https://github.com/Ejhuang2015/Weather-Dashboard" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">View the Code</a>
-      </footer>
-    </div>
-    <!-- Project 3 -->
-    <div class="column card">
-      <div class="card-image">
-        <img class="cardImage" src="./assets/images/CodingQuizScreenshot.PNG" alt="Coding Quiz Project Screenshot">
-      </div>
-      <div class="card-header">
-        <p class="card-header-title is-centered">
-          Truffle Shuffle
-        </p>
-      </div>
-      <div class="card-content">
-        <p class="content">
-          This project is a practice on using Javascript. It presents a timed quiz about basic coding theory and
-          terminology where wrong answers reduce the time. It also features a high score list and the ability to save
-          the user's initials.
-        </p>
-      </div>
-      <footer class="card-footer">
-        <a href="https://ejhuang2015.github.io/Coding-Quiz/" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">See the App</a>
-        <a href="https://github.com/Ejhuang2015/Coding-Quiz" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">View the Code</a>
-      </footer>
     </div>
   </div>
 
   <!-- Art Portfolio -->
-  <div class="columns centered" id="artPortfolio">
-    <!-- Display 1 -->
-    <div class="column card">
-      <div class="card-image">
-        <img class="cardImage" src="https://via.placeholder.com/2550x3300" alt="Image 1">
+  <div class="centered" id="artPortfolio">
+    <h3 class="sectionTitle">Digital Art Portfolio</h3>
+    <div class="columns">
+      <!-- Display 1 -->
+      <div class="column card">
+        <div class="card-image">
+          <img class="cardImage" src="./assets/images/edward-huang-beach-girl.jpg" alt="Beach Girl Illustration">
+        </div>
+        <div class="card-header">
+          <p class="card-header-title is-centered">
+            Beach Girl Illustration
+          </p>
+        </div>
+        <div class="card-content">
+          <p class="content">
+            A drawing made to practice grayscale to color shading technique.
+          </p>
+        </div>
+        <footer class="card-footer">
+          <a href="https://www.artstation.com/artwork/68nZ2N" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">Open in ArtStation</a>
+        </footer>
       </div>
-      <div class="card-header">
-        <p class="card-header-title is-centered">
-          Image 1
-        </p>
+      <!-- Display 2 -->
+      <div class="column card">
+        <div class="card-image">
+          <img class="cardImage" src="./assets/images/edward-huang-obio-icon-final.jpg" alt="Obio app icon">
+        </div>
+        <div class="card-header">
+          <p class="card-header-title is-centered">
+            Obio
+          </p>
+        </div>
+        <div class="card-content">
+          <p class="content">
+            Obio is a mobile puzzle game made for the iOS App store and Android Playstore. It was a college project
+            where I was called in to help design and create various UI elements and game icons.
+          </p>
+        </div>
+        <footer class="card-footer">
+          <a href="https://www.artstation.com/artwork/gJVYrG" class="card-footer-item" target="_blank"
+            rel="noreferrer noopener">Open in ArtStation</a>
+        </footer>
       </div>
-      <div class="card-content">
-        <p class="content">
-          Something about this piece
-        </p>
-      </div>
-      <footer class="card-footer">
-        <a href="https://laura-bullek.github.io/Truffle-Shuffle/" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">Open in ArtStation</a>
-      </footer>
-    </div>
-    <!-- Display 2 -->
-    <div class="column card">
-      <div class="card-image">
-        <img class="cardImage" src="https://via.placeholder.com/3300x2550" alt="Image 2">
-      </div>
-      <div class="card-header">
-        <p class="card-header-title is-centered">
-          Image 1
-        </p>
-      </div>
-      <div class="card-content">
-        <p class="content">
-          Something about this piece
-        </p>
-      </div>
-      <footer class="card-footer">
-        <a href="https://laura-bullek.github.io/Truffle-Shuffle/" class="card-footer-item" target="_blank"
-          rel="noreferrer noopener">Open in ArtStation</a>
-      </footer>
     </div>
   </div>
 
