@@ -58,6 +58,17 @@ nav.navbar {
     border: 2px solid rgb(128,251,242);
 }
 
+/* Section Header/Title */
+.sectionTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px auto 15px auto;
+    width: 80%;
+    border: 2px solid rgb(128,251,242);
+    border-radius: 10px;
+    background-color: rgb(103, 188, 214,0.5);
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -153,6 +164,13 @@ h2 {
 hr {
     size: 2px;
     background-color: rgb(128,251,242);
+}
+
+p.quote {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: cursive;
+    font-style: italic;
 }
 
 /* ----- 3. Basic Formatting Options----- */
