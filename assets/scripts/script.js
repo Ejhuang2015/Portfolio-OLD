@@ -36,5 +36,19 @@ $(document).ready(function () {
     $(".navbar-menu").click(function (event) {
         event.stopPropagation();
     });
+    
+    // Opens the contact modal when clicking the contact link
+    $("#contactLink").click(function () {
+        $("#contactModal").addClass("is-active");
+    });
+    // Closes all modals when background is clicked...
+    $(".modal-background").click(function () {
+        $("#contactModal").removeClass("is-active");
+    });
+    // ...When the close button is clicked
+    $(".modalClose").click(function () {
+        $("#contactModal").removeClass("is-active");
+    });
+    
 
 });

@@ -155,13 +155,6 @@ hr {
     background-color: rgb(128,251,242);
 }
 
-p.quote {
-    font-size: 25px;
-    font-weight: normal;
-    font-family: cursive;
-    font-style: italic;
-}
-
 /* ----- 3. Basic Formatting Options----- */
 /* Center contents */
 .centered {
@@ -177,6 +170,7 @@ p.quote {
     justify-content: center;
 }
 
+/* Row Reverse display */
 @media screen and (min-width: 1024px) {
     .reverseRow {
         display: flex;

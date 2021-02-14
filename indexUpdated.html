@@ -75,7 +75,7 @@
             <!-- Resume Link -->
             <a href="https://drive.google.com/file/d/1Usp1llqu8YRF2XRUs8Cwhi9sC0MmMJCv/view?usp=sharing" class="navbar-item navLink" target="_blank" rel="noreferrer noopener"><img src="https://via.placeholder.com/15x15" alt="pdf icon" class="smallIcon">Resume</a>
             <!-- Email Link -->
-            <a href="mailto:ejhuang.2015@gmail.com" class="navbar-item navLink"><img src="https://via.placeholder.com/15x15" alt="mail icon" class="smallIcon">Email Me</a>
+            <a class="navbar-item navLink" id="contactLink"><img src="https://via.placeholder.com/15x15" alt="mail icon" class="smallIcon">Contact Me</a>
           </div>
         </div>
       </div>
@@ -99,12 +99,12 @@
     </div>
   </div>
 
-  <div class="columns gapless centered" id="aboutMe">
-    <div class="empty column is-2"></div>
-    <header class="column is-4">
+  <div class="columns gapless centered container" id="aboutMe">
+    <div class="empty column is-1"></div>
+    <header class="column is-5">
       <p>Something about my project</p>
     </header>
-    <div class="column is-4">
+    <div class="column is-5">
       <img src="https://via.placeholder.com/300x300" alt="Project 1">
     </div>
   </div>
@@ -126,7 +126,28 @@
     <div class="column is-4">
       <img src="https://via.placeholder.com/300x300" alt="Project 1">
     </div>
-  </div>  
+  </div>
+
+  <!-- Contact Information Modal -->
+  <div class="modal" id="contactModal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Reach out to me!</p>
+        <button class="delete modalClose" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <ol>
+          <li><strong>Phone:</strong> (603) 391-****</li>
+          <li><strong>Email:</strong> <a href="mailto:ejhuang.2015@gmail.com">ejhuang.2015@gmail.com</a></li>
+          <li><strong>Social Link 1:</strong> </li>
+          <li><strong>Social Link 2:</strong> </li>
+          <li><strong>Social Link 3:</strong> </li>
+        </ol>
+      </section>
+    </div>
+  </div>
+
 
   <footer class="footer">Edward JieHao Huang ©2021</footer>
   <!-- Link to Resume PDF: https://drive.google.com/file/d/1Usp1llqu8YRF2XRUs8Cwhi9sC0MmMJCv/view?usp=sharing -->
