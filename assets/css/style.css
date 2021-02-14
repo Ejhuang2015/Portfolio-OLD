@@ -43,17 +43,6 @@ img.footerIcons {
     height: 50px;
 }
 
-#contactButton {
-    background-color:  rgb(224, 245, 243);
-    color: rgb(22,58,84);
-    border-color: rgb(128,251,242);
-}
-#contactButton:hover,
-#contactButton:active,
-#contactButton:focus {
-    background-color: rgb(255, 255, 255);
-}
-
 .navbar-link:not(.is-arrowless)::after {
     border-color:rgb(103, 188, 214);
 }
@@ -64,6 +53,11 @@ img.footerIcons {
     padding-top: 52px;
 }
 
+.smallIcon {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
 
 
 /* Notes

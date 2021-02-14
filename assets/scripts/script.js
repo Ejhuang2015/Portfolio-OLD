@@ -30,11 +30,11 @@ $(document).ready(function () {
         $(".navbar-dropdown").addClass("invis");
     });
     // ...except when clicking the mobile nav-bar or the dropdown menus
-    $(".navbar-brand").click(function (e) {
-        e.stopPropagation();
+    $(".navbar-brand").click(function (event) {
+        event.stopPropagation();
     });
-    $(".navbar-menu").click(function (e) {
-        e.stopPropagation();
+    $(".navbar-menu").click(function (event) {
+        event.stopPropagation();
     });
 
 });
