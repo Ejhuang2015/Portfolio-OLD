@@ -1,10 +1,10 @@
-/* Background Image */
 html {
     background: url(../Abstract\ BG.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,6 +18,7 @@ body {
 }
 
 .title {
+    color: rgb(22,58,84);
     background-color: rgb(103, 188, 214,0.5);
     width: 100%;
 }
@@ -30,9 +31,7 @@ body {
 .navbar-menu {
     background-color: rgb(192, 233, 223);
 }
-/* .navbar-dropdown {
-    background-color: rgb(238,255,251);
-} */
+
 /* Images and Icons */
 #profilePicture {
     border-radius: 100%;
@@ -44,17 +43,26 @@ img.footerIcons {
     height: 50px;
 }
 
-#testing {
-    background:violet;
+#contactButton {
+    background-color:  rgb(224, 245, 243);
+    color: rgb(22,58,84);
+    border-color: rgb(128,251,242);
 }
-#testing:hover {
-    background: yellow;
+#contactButton:hover,
+#contactButton:active,
+#contactButton:focus {
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar-link:not(.is-arrowless)::after {
     border-color:rgb(103, 188, 214);
 }
+
+#aboutMe {
+    padding-top: 52px;
 }
+
+
 /* Notes
 border-color: rgb(128,251,242)
 Text color: rgb(22,58,84);

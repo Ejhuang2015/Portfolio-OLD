@@ -100,7 +100,7 @@ nav.navbar {
 
 /* ----- 2. Element Formatting Options----- */
 /* Anchor Tags */
-a:link {
+a {
     color: rgb(22,58,84);
 }
 a:visited {
@@ -147,6 +147,19 @@ h2 {
     font-weight: bold;
 }
 
+/* Horizontal Rule */
+hr {
+    size: 2px;
+    background-color: rgb(128,251,242);
+}
+
+p.quote {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: cursive;
+    font-style: italic;
+}
+
 /* ----- 3. Basic Formatting Options----- */
 /* Center contents */
 .centered {
@@ -188,13 +201,6 @@ h2 {
     border-radius: 25px;
 }
 
-/* Small dividing line between content */
-.dividingLine {
-    width: 80%;
-    margin: auto;
-    border: 0px solid rgb(128,251,242);
-    border-top: 2px;
-}
 
 /* Notes
 border-color: rgb(128,251,242)
