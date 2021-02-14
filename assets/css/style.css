@@ -27,6 +27,10 @@ body {
     padding: 0px;
 }
 
+.reverseRow {
+    background-color: rgb(103, 188, 214,0.5);
+}
+
 /* Bulma Overwrites */
 .navbar-menu {
     background-color: rgb(192, 233, 223);
@@ -79,7 +83,26 @@ img.footerIcons {
     background: rgb(238,255,251);
     font-size: 18px;
 }
-
+.card {
+    background: rgb(238,255,251,0.25);
+    margin: 0px 5px 52px 5px;
+}
+.card-image {
+    height: 500px;
+}
+.cardImage {
+    max-height: 500px;
+    margin: auto;
+}
+.card-content{
+    height: 175px;
+}
+.card-footer {
+    border-color: rgb(128,251,242);
+}
+.card-footer-item:not(:last-child) {
+    border-right: 1px solid rgb(128,251,242);
+}
 
 /* Notes
 border-color: rgb(128,251,242)
