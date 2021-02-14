@@ -21,6 +21,8 @@ nav.navbar {
     top: 0px;
     z-index: 2;
     background-color: rgb(238,255,251);
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Header Style */
@@ -173,6 +175,13 @@ p.quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .reverseRow {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 
 /* Hide content */
