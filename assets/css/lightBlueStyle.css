@@ -20,7 +20,7 @@ nav.navbar {
     width:100%;
     top: 0px;
     z-index: 2;
-    background-color: rgb(238,255,251,0.75);
+    background-color: rgb(238,255,251);
 }
 
 /* Header Style */
@@ -29,13 +29,6 @@ nav.navbar {
     padding: 10px;
     padding-top: 20px;
     border-bottom: solid 2px rgb(128,251,242);
-}
-.title {
-    padding: 10px 0px;
-    margin: 5px 0px;
-    background-color: rgb(103, 188, 214);
-    border-radius: 10px;
-    width: 100%;
 }
 
 /* Footer Style */
@@ -159,6 +152,7 @@ h2 {
 .centered {
     text-align: center;
     margin: auto;
+    vertical-align: middle;
 }
 
 /* Display content in Column */
@@ -194,6 +188,13 @@ h2 {
     border-radius: 25px;
 }
 
+/* Small dividing line between content */
+.dividingLine {
+    width: 80%;
+    margin: auto;
+    border: 0px solid rgb(128,251,242);
+    border-top: 2px;
+}
 
 /* Notes
 border-color: rgb(128,251,242)

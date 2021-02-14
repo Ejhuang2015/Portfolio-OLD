@@ -13,7 +13,13 @@ body {
 
     position: relative;
     min-height: 100vh;
-    padding: 65px 0px;
+    padding-top: 52px;
+    padding-bottom: 71px;
+}
+
+.title {
+    background-color: rgb(103, 188, 214,0.5);
+    width: 100%;
 }
 
 .footer {
@@ -22,12 +28,16 @@ body {
 
 /* Bulma Overwrites */
 .navbar-menu {
-    background-color: transparent;
+    background-color: rgb(192, 233, 223);
 }
-.navbar-dropdown {
-    background-color: rgb(238,255,251,0.75);
-}
+/* .navbar-dropdown {
+    background-color: rgb(238,255,251);
+} */
 /* Images and Icons */
+#profilePicture {
+    border-radius: 100%;
+}
+
 img.footerIcons {
     margin: 5px 20px;
     width: 50px;
@@ -41,6 +51,10 @@ img.footerIcons {
     background: yellow;
 }
 
+.navbar-link:not(.is-arrowless)::after {
+    border-color:rgb(103, 188, 214);
+}
+}
 /* Notes
 border-color: rgb(128,251,242)
 Text color: rgb(22,58,84);
