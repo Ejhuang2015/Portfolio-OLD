@@ -50,9 +50,9 @@
         <!-- About Me Link -->
         <a href="#aboutMe" class="navbar-item navLink">About</a>
         <!-- Portfolio Dropdown -->
-        <div class="navbar-item has-dropdown">
-          <a class="navbar-link">Portfolio</a>
-          <div class="navbar-dropdown invis">
+        <div class="navbar-item has-dropdown" id="navPortfolioHasDropdown">
+          <a class="navbar-link" id="navPortfolio">Portfolio</a>
+          <div class="navbar-dropdown invis" id="navPortfolioDropdown">
             <!-- Web Dev Portfolio Link -->
             <a href="#webPortfolio" class="navbar-item navLink">Web Development</a>
             <!-- Art Portfolio Link -->
@@ -63,12 +63,21 @@
       <!-- Navigation Links Right Side -->
       <div class="navbar-end">
         <!-- Contact Me Link -->
+        <div class="navbar-item has-dropdown" id="navContactsHasDropdown">
+          <a class="navbar-link" id="navContacts">Links</a>
+          <div class="navbar-dropdown invis" id="navContactsDropdown">
+            <!-- GitHub Link -->
+            <a href="#" class="navbar-item navLink">GitHub</a>
+            <!-- ArtStation Link -->
+            <a href="#" class="navbar-item navLink">ArtStation</a>
+          </div>
+        </div>
         <a href="mailto:ejhuang.2015@gmail.com" class="navbar-item" id="contactButton">Contact Me</a>
       </div>
     </div>
   </nav>
 
-  <div class="columns centered title" id="aboutMe">
+  <div class="columns centered title" id="top">
     <header class="column is-4 is-offset-2">
       <h1>Edward JieHao Huang</h1>
       <h2>Full Stack Web Developer and Digital Artist</h2>
@@ -84,7 +93,17 @@
     </div>
   </div>
 
-  <div class="columns centered reverseRow" id="webPortfolio">
+  <div class="columns gapless centered" id="aboutMe">
+    <div class="empty column is-2"></div>
+    <header class="column is-4">
+      <p>Something about my project</p>
+    </header>
+    <div class="column is-4">
+      <img src="https://via.placeholder.com/300x300" alt="Project 1">
+    </div>
+  </div>
+
+  <div class="columns gapless centered reverseRow" id="webPortfolio">
     <div class="empty column is-2"></div>
     <header class="column is-4">
       <p>Something about my project</p>
