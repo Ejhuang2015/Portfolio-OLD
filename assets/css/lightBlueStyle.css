@@ -5,6 +5,8 @@ html {
 }
 
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -165,6 +167,10 @@ hr {
     size: 2px;
     background-color: rgb(128,251,242);
 }
+hr.smallHR {
+    width: 75%;
+    margin: 5px auto;
+}
 
 /* Fancy Text */
 p.quote {
@@ -195,6 +201,13 @@ p.quote {
         display: flex;
         flex-direction: row-reverse;
     }
+}
+
+/* Bottom border underline */
+.underlined {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(128,251,242);
 }
 
 /* Hide content */
