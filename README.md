@@ -1,6 +1,7 @@
 # Portfolio Website
 
-This project is a documentation of my journey towards becoming a full stack developer. It is a portfolio page that details my strengths and capabilities, as well as showcase some of my better works. View my portfolio here: [Portfolio Link](https://ejhuang2015.github.io/) 
+This project is a documentation of my journey towards becoming a full stack developer. It is a portfolio page that details my strengths and capabilities, as well as showcase some of my better works. 
+View my portfolio here: [Portfolio Link](https://ejhuang2015.github.io/) 
 
 
 ![Project example image](./assets/images/PortfolioScreenshot.png)
