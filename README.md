@@ -16,6 +16,7 @@ Thanks to the following people who have contributed to this project:
 * [Scott Byer](https://github.com/switch120) 
 * [Mike Fearly](https://michaelfearnley.com/)
 * UNH Full Stack Development Bootcamp
+* The [Bulma team](https://bulma.io/) for their awesome CSS framework
 
 ## Contact
 
